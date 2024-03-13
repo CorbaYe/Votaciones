@@ -2,12 +2,11 @@ public class cls_votos {
     private int numero_candidato_int;
     private String id_votante_str;
     private String fecha_str;
-    private int nombre_votos_int;
-    public cls_votos(int numero_candidato_int, String id_votante_str, String fecha_str, int nombre_votos_int) {
+
+    public cls_votos(int numero_candidato_int, String id_votante_str, String fecha_str) {
         this.numero_candidato_int = numero_candidato_int;
         this.id_votante_str = id_votante_str;
         this.fecha_str = fecha_str;
-        this.nombre_votos_int = nombre_votos_int;
     }
     public int getNumero_candidato_int() {
         return numero_candidato_int;
@@ -26,12 +25,5 @@ public class cls_votos {
     }
     public void setFecha_str(String fecha_str) {
         this.fecha_str = fecha_str;
-    }
-    public int getNombre_votos_int() {
-        return nombre_votos_int;
-    }
-    public void setNombre_votos_int(int nombre_votos_int) {
-        this.nombre_votos_int = nombre_votos_int;
-    }
-    
+    }    
 }
