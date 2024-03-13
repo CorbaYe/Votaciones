@@ -5,15 +5,15 @@ public class cls_votantes {
     private int estado_int;
     private String puesto_votacion_str;
 
-    public cls_votantes(String id_str, String nombre_str, String ciudad_str, int estado_int,
+    public cls_votantes(String id_str, String nombre_str, String ciudad_str,
             String puesto_votacion_str) {
         this.id_str = id_str;
         this.nombre_str = nombre_str;
         this.ciudad_str = ciudad_str;
-        this.estado_int = estado_int;
+        this.estado_int = 0;
         this.puesto_votacion_str = puesto_votacion_str;
     }
-    
+
     public String getId_str() {
         return id_str;
     }
