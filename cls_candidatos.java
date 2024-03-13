@@ -1,24 +1,24 @@
 public class cls_candidatos{
-    private int nurmero_int;
+    private int numero_candidato_int;
     private String nombre_str;
     private String propuesta_str;
     private String partido_str;
     private int n_votos_int;
 
-    public cls_candidatos(int nurmero_int, String nombre_str, String propuesta_str, String partido_str) {
-        this.nurmero_int = nurmero_int;
+    public cls_candidatos(int numero_candidato_int, String nombre_str, String propuesta_str, String partido_str) {
+        this.numero_candidato_int = numero_candidato_int;
         this.nombre_str = nombre_str;
         this.propuesta_str = propuesta_str;
         this.partido_str = partido_str;
         this.n_votos_int = 0;
     }
 
-    public int getNurmero_int() {
-        return nurmero_int;
+    public int getNumero_candidato_int() {
+        return numero_candidato_int;
     }
 
-    public void setNurmero_int(int nurmero_int) {
-        this.nurmero_int = nurmero_int;
+    public void setNumero_candidato_int(int nurmero_int) {
+        this.numero_candidato_int = nurmero_int;
     }
 
     public String getNombre_str() {
